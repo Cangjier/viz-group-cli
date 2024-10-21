@@ -9,6 +9,9 @@
     <AssemblyName>viz</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="VizGroup" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="Readme.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
