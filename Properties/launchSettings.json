@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VizGroup.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "server --port 1010"
+    }
+  }
+}
