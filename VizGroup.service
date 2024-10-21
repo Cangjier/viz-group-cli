@@ -1,0 +1,13 @@
+﻿[Unit]
+Description=VizGroup Service
+After=network.target
+
+[Service]
+WorkingDirectory=<WorkingDirectory>
+EnvironmentFile=<EnvironmentFile>
+ExecStart=viz server --port 20001
+Restart=always
+User=<User>
+
+[Install]
+WantedBy=multi-user.target
