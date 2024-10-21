@@ -397,3 +397,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /VizGroup.sln
+/VizGroup.CLI.sln
