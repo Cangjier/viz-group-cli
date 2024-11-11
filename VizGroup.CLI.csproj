@@ -9,7 +9,7 @@
     <AssemblyName>viz</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="VizGroup" Version="1.0.10" />
+    <PackageReference Include="VizGroup" Version="1.0.11" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Readme.md">

@@ -3,6 +3,14 @@
     "VizGroup.CLI": {
       "commandName": "Project",
       "commandLineArgs": "server --port 1010"
+    },
+    "server": {
+      "commandName": "Project",
+      "commandLineArgs": "server --port 1010"
+    },
+    "client": {
+      "commandName": "Project",
+      "commandLineArgs": "client --port 1011 --share-server-url-prefix \"http://127.0.0.1:1010/\""
     }
   }
 }
